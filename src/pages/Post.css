@@ -1,0 +1,84 @@
+.post {
+    margin: 10rem auto;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 5000;
+    padding: 3rem 1.5rem;
+    box-shadow: 0.7rem 0.7rem 0.03rem grey;
+}
+
+.post img {
+    max-height: 50vh;
+    max-width: 50vw;
+}
+
+.post h2,
+.post p {
+    color: #000;
+}
+
+.post button {
+    color: #fff;
+    background: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 10%;
+    /* box-shadow: 0.3rem 0.3rem grey inset; */
+    /* transition: all 0.1s ease; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .post button:hover {
+    box-shadow: 0.15rem 0.15rem grey;
+} */
+
+.post .rover-name {
+    text-transform: uppercase;
+}
+
+/* .post .button-text {
+    pointer-events: none;
+} */
+
+.post img.copy-image {
+    height: 1rem;
+    color: #fff;
+    /* bottom: 10rem; */
+}
+
+.post a.copy-icon {
+    position: absolute;
+    display: block;
+    /* left: 51vw;
+    bottom: -4.5vh; */
+    max-width: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .post {
+        margin: 10rem 2rem;
+        background-color: #fff;
+        border-radius: 20px;
+        z-index: 5000;
+        padding: 2rem 1rem;
+    }
+
+    .post h2 {
+        font-size: 1rem;
+    }
+
+    .post p {
+        font-size: 0.7rem;
+    }
+
+    .post button {
+        color: #fff;
+        background: #000;
+        padding: 0.2rem 0.4rem;
+        border-radius: 10%;
+        /* box-shadow: 0.3rem 0.3rem grey inset; */
+        /* transition: all 0.1s ease; */
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
