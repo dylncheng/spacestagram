@@ -7,6 +7,7 @@
 
 .loading h1 {
     position: absolute;
+    text-shadow: 0.7rem 0.7rem rgb(36, 35, 35);
     color: #fff;
     top: 40vh;
     text-align: center;
@@ -45,4 +46,18 @@ to {
 span.dots {
     position: relative;
     left: 19rem;
+}
+
+@media  (max-width: 1036px) {
+    .loading h1 {
+        font-size: 3rem;
+        letter-spacing: 3vw;
+    }
+}
+
+@media  (max-width: 772px) {
+    .loading h1 {
+        font-size: 2.5rem;
+        letter-spacing: 2.5vw;
+    }
 }

@@ -1,0 +1,61 @@
+.modal {
+    position: fixed;
+    top: 50vh;
+    bottom:0;
+    right: 0;
+    left: 0;
+    background-color: rgb(66, 65, 65);
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 10px;
+    /* border: 0.1rem solid #000; */
+    box-shadow: 0.3rem 0.3rem rgb(36, 35, 35);
+    width: 20%;
+    height: 15%;
+    padding: 0.5rem 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10000;
+}
+
+.modal .share-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.7rem auto;
+}
+
+.modal .exit-button {
+    border-radius: 100%;
+    padding: 0.3rem 0.3rem;
+    border: none;
+    background-color: coral;
+    position: absolute;
+    right: 0.6rem;
+    cursor: pointer;
+}
+
+.modal input {
+    width: 65%;
+}
+
+.modal .copy-button {
+    cursor: pointer;
+}
+
+.modal .copy-button img {
+    height: 0.9rem;
+}
+
+
+@media (max-height: 830px) {
+    .modal {
+        height: 15%;
+    }
+}
+
+
+@media (max-width: 788px) {
+    .modal {
+        width: fit-content;
+        height: fit-content;
+    }
+}
