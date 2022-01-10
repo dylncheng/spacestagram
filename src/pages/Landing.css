@@ -38,7 +38,6 @@
     margin: 0 auto;
     color: #fff;
     border-radius: 10px;
-    /* border: 0.1rem solid #000; */
     box-shadow: 0.3rem 0.3rem rgb(36, 35, 35);
     width: 15%;
     padding: 0.5rem 0;
@@ -50,20 +49,6 @@
     margin: 0;
     text-shadow: 0.2rem 0.2rem#000;
 }
-/* 
-@media screen and (max-width: 1150px) {
-    .landing .logo {
-        font-size: 3rem;
-    }
-}
-
-
-@media screen and (max-width: 1000px) {
-    .landing .logo {
-        font-size: 3rem;
-        letter-spacing: 2rem;
-    }
-} */
 
 @media screen and (max-width: 1600px) {
     .landing .logo {
