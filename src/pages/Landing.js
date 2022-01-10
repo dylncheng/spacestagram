@@ -4,7 +4,7 @@ import Post from "./Post";
 import "./Landing.css";
 
 /*API KEY NOT INCLUDED IN REPO*/
-const API_KEY = "##########";
+const API_KEY = "################";
 
 
 const Landing = () => {
