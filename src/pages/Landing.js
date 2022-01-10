@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Loading from "../loading/Loading";
-import Post from "./Post";
+import Post from "../components/Post";
 import "./Landing.css";
 
 /*API KEY NOT INCLUDED IN REPO*/

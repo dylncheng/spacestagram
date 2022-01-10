@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import shareButton from '../images/share-square-solid.svg'
-import Modal from '../components/Modal';
+import Modal from './Modal';
 import './Post.css'
 
 const Post = ({photo, name, id, date, camera, setLinkCopied, linkCopied}) => {

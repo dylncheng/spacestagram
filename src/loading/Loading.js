@@ -1,6 +1,7 @@
 import './Loading.css'
 import { useEffect, useState } from 'react';
 
+/*loding screen component*/
 const Loading = () => {
     const [dots, setDots] = useState(0);
     useEffect(() => {
