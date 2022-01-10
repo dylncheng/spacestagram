@@ -1,7 +1,7 @@
 # SPACESTAGRAM
 
 
-## Mock social media platform created using NASA Mars API
+#### Mock social media platform created using NASA Mars API and React
 
 
 # How to Run:
