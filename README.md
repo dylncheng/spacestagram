@@ -12,6 +12,7 @@
 5. Run ```npm start``` to start the development server
 
 # Features
+> - Mobile responsiveness
 > - Click the "like" button or double-click to "like" a post
 > - Click the "share" icon to display the "share modal"
 > - Find an image you like and press the "copy" icon to copy the image url
