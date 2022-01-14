@@ -20,3 +20,4 @@
 > - Animated "like" button
 > - Posts displayed from randomly chosen day (sol)
 
+![image](https://user-images.githubusercontent.com/68773823/149470999-581b870b-52cc-45a7-be6d-a19ad98adb23.png)
