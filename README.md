@@ -11,6 +11,8 @@
 4. Replace ```const API_KEY = "################"``` in App.js with ```const API_KEY = "your_api_key"```
 5. Run ```npm start``` to start the development server
 
+
+
 # Features
 - Mobile responsiveness
 - Click the "like" button or double-click to "like" a post
@@ -21,5 +23,6 @@
 - Posts displayed from randomly chosen day (sol)
 
 
-#Gallery
+
+# Gallery
 ![image](https://user-images.githubusercontent.com/68773823/149471122-1c174ef0-2551-4d99-b4cd-a280b7225894.png)
