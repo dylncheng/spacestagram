@@ -2,6 +2,7 @@
 
 
 #### Mock social media platform created using NASA Mars API and React
+
 <br/>
 
 # How to Run:
@@ -13,6 +14,7 @@
 
 
 <br/>
+
 # Features
 - Mobile responsiveness
 - Click the "like" button or double-click to "like" a post
@@ -24,5 +26,6 @@
 
 
 <br/>
+
 # Gallery
 ![image](https://user-images.githubusercontent.com/68773823/149471122-1c174ef0-2551-4d99-b4cd-a280b7225894.png)
