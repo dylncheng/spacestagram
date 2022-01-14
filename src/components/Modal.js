@@ -1,24 +1,24 @@
-import {EmailShareButton, TwitterShareButton, FacebookShareButton, EmailIcon, FacebookIcon, TwitterIcon} from 'react-share'
-import { useRef, useEffect } from 'react'
-import copyButton from '../images/copy-regular.svg'
-import data from '../data'
-import './Modal.css'
+import {EmailShareButton, TwitterShareButton, FacebookShareButton, EmailIcon, FacebookIcon, TwitterIcon} from 'react-share';
+import { useRef, useEffect } from 'react';
+import copyButton from '../images/copy-regular.svg';
+import data from '../data';
+import './Modal.css';
 
-export default function Modal({url, showModal, setShowModal, handleCopy}) {
+export default function Modal({url, setShowModal, handleCopy}) {
     let ref = useRef();
 
     const handleClickOutside = (event) => {
         if (ref.current && !ref.current.contains(event.target)) {
           setShowModal && setShowModal(false);
         }
-      };
+    };
     
-      useEffect(() => {
+    useEffect(() => {
         document.addEventListener('click', handleClickOutside, true);
         return () => {
-          document.removeEventListener('click', handleClickOutside, true);
+            document.removeEventListener('click', handleClickOutside, true);
         };
-      });
+    });
 
     return (
         <div className="modal" ref={ref}>
@@ -35,7 +35,7 @@ export default function Modal({url, showModal, setShowModal, handleCopy}) {
                 </FacebookShareButton>    
             </div>
             <div className="copy-link">
-                <input className="url-box" type="url" value={url} readonly/>
+                <input className="url-box" type="url" value={url} readOnly/>
                 <button className="copy-button" onClick={(e)=>handleCopy(e, url)}><img src={copyButton} alt="copy button"></img></button>
             </div>
         </div>

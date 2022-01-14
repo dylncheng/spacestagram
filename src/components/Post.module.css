@@ -1,0 +1,30 @@
+.heart-large {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto auto;
+    height: 4rem;
+    z-index: 10000;
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(270deg) brightness(105%) contrast(103%) drop-shadow(0 0 0.175rem black);
+    animation-name: grow-shrink;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+
+}
+
+.image-container {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+@keyframes grow-shrink {
+    10% {height: 5.5rem;} 
+    40% {height: 7rem;} 
+    60% {height: 6.5rem;} 
+    90% {height: 6.5rem;} 
+    95% {opacity: 0.99; height: 6.5rem;}
+    100% {opacity: 0; height: 2rem;}
+}

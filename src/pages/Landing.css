@@ -39,8 +39,8 @@
     color: #fff;
     border-radius: 10px;
     box-shadow: 0.3rem 0.3rem rgb(36, 35, 35);
-    width: 15%;
-    padding: 0.5rem 0;
+    width: fit-content;
+    padding: 0.5rem 0.5rem;
     transition: all 0.3s ease-in-out;
     z-index: 10000;
 }
@@ -48,6 +48,18 @@
 .landing .copied-modal h3 {
     margin: 0;
     text-shadow: 0.2rem 0.2rem#000;
+}
+
+.show-more-btn {
+    color: #000;
+    padding: 1rem 2rem;
+    margin: 3rem auto;
+    margin-bottom: 10rem;
+    border: none;
+    box-shadow: 0.15rem 0.15rem rgb(65, 64, 64);;
+    border-radius: 5%;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1600px) {
