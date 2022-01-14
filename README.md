@@ -12,13 +12,8 @@
 5. Run ```npm start``` to start the development server
 
 # Features
-- Mobile responsiveness:
-
-- Click the "like" button or double-click to "like" a post: 
-- 
- ![image](https://user-images.githubusercontent.com/68773823/149471236-34205a8e-f87b-44ca-8a63-1860f916a719.png)
-
-
+- Mobile responsiveness
+- Click the "like" button or double-click to "like" a post
 - Click the "share" icon to display the "share modal"
 - Find an image you like and press the "copy" icon to copy the image url
 - Animated loading screen
