@@ -15,6 +15,7 @@
 - Mobile responsiveness:
 
 - Click the "like" button or double-click to "like" a post: 
+- 
  ![image](https://user-images.githubusercontent.com/68773823/149471236-34205a8e-f87b-44ca-8a63-1860f916a719.png)
 
 
