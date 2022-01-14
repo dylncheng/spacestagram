@@ -11,3 +11,11 @@
 4. Replace ```const API_KEY = "################"``` in App.js with ```const API_KEY = "your_api_key"```
 5. Run ```npm start``` to start the development server
 
+# Features
+> - Click the "like" button or double-click to "like" a post
+> - Click the "share" icon to display the "share modal"
+> - Find an image you like and press the "copy" icon to copy the image url
+> - Animated loading screen
+> - Animated "like" button
+> - Posts displayed from randomly chosen day (sol)
+
