@@ -58,7 +58,7 @@ const Post = ({photo, name, id, date, camera, setLinkCopied, linkCopied}) => {
                 <h2><strong className="rover-name">{name}  Rover</strong> - {camera}</h2>
                 <div className={styles["image-container"]}>
                     {showHeart && clicked && <img className={styles["heart-large"]} src={heartSolid}></img>}
-                    <img className="post-img" src={photo} onDoubleClick={handleLike} alt={`${name} Rover ${camera} Mars`}></img>
+                    <img className="post-img" src={photo} loading="lazy" onDoubleClick={handleLike} alt={`${name} Rover ${camera} Mars`}></img>
                 </div>
                 <p>{date}</p>
                 <button href="" onClick={handleLike} style={{boxShadow: clicked?"0.17rem 0.17rem rgb(65, 64, 64) inset":"0.125rem 0.125rem grey", backgroundColor:clicked?"grey":"#000"}}>{clicked?<img className="heart-img" src={heartSolid}></img>:<img className="heart-img" src={heartOutline}></img>}</button>
